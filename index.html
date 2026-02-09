@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -90,7 +90,6 @@
         </div>
 
         <div class="nav__menu" id="nav-menu">
-
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#home" class="nav__link active">Home</a>
@@ -142,7 +141,6 @@
         </div>
       </nav>
     </header>
-
 
     <main class="l-main">
       <!--===== HOME =====-->
@@ -236,29 +234,36 @@
 
         <div class="about__container bd-grid">
           <div class="about__img" data-aos="fade-right">
-            <img src="about.jpeg" alt="Nifad Hasan" />
+            <img src="about.jpeg" alt="Nifad Hasan Eimu" />
           </div>
 
           <div data-aos="fade-left">
             <h2 class="about__subtitle">I'm Nifad Hasan Eimu</h2>
             <p class="about__text">
-              I am a passionate Software Engineering student at Daffodil
-              International University, currently in my 4th semester. Alongside
-              my academic journey, I'm developing my skills in web development,
-              data structures, algorithms, and software design.
-              <br /><br />
-              I enjoy working on creative coding projects—ranging from building
-              portfolio websites and small applications to larger structured
-              programming projects. I have hands-on experience with
-              <b>C programming, HTML, CSS, JavaScript, and SQL</b>, and I am
-              continuously learning modern technologies like the
-              <b>MERN stack</b> and <b>Java.</b> <br /><br />
-              Beyond academics, I love exploring problem-solving, working on
-              projects that challenge me, and growing into a well-rounded
-              software engineer. My long-term goal is to contribute to impactful
-              software solutions while also exploring freelancing and innovative
-              product development.
+              I am a dedicated Software Engineering student at Daffodil
+              International University, currently in my <b>5th semester</b>,
+              with a strong interest in building efficient, scalable, and
+              user-focused software solutions. <br /><br />
+              My technical journey is centered around core programming and
+              problem-solving concepts, including data structures, algorithms,
+              and structured software design. I have hands-on experience in
+              <b>C programming</b> for foundational system-level logic and
+              <b>Java</b> for object-oriented development. <br /><br />
+              Alongside core programming, I actively work in the web development
+              domain, creating responsive and interactive applications using
+              <b>HTML, CSS, JavaScript, and SQL</b>. I am also expanding my
+              expertise in modern full-stack development through the
+              <b>MERN stack</b>, focusing on building real-world,
+              production-ready applications. <br /><br />
+              I enjoy transforming ideas into functional products—whether it's
+              crafting clean portfolio websites, developing structured academic
+              projects, or experimenting with innovative concepts. Beyond
+              academics, I am driven by continuous learning, problem-solving,
+              and collaboration, with a long-term goal of contributing to
+              impactful software products while exploring freelancing and
+              product-based development.
             </p>
+
             <div class="about__buttons">
               <a href="#contact" class="button">Hire Me</a>
               <a href="#" class="button button--light" id="download-cv"
@@ -275,18 +280,20 @@
 
         <div class="skills__container bd-grid">
           <div data-aos="fade-up">
-            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <h2 class="skills__subtitle">Professional Skills</h2>
             <p class="skills__text">
-              As a Software Engineering student, I have been building a strong
-              foundation in both programming and web technologies. My skills
-              include working with
-              <b>C, HTML, CSS, JavaScript, and SQL</b>, along with a growing
-              interest in modern stacks like <b>MERN Stack</b> and <b>Java.</b>
+              I have built a strong foundation in programming and software
+              development through academic learning and hands-on projects, with
+              a focus on writing clean, efficient, and maintainable code.
               <br /><br />
-              I enjoy problem-solving, creating structured and efficient code,
-              and designing user-friendly web applications. With every project,
-              I aim to sharpen my logical thinking, improve code quality, and
-              move closer to becoming a professional software engineer.
+              My core skills include <b>C programming</b> and <b>Java</b>, along
+              with web development using <b>HTML, CSS, JavaScript</b> to create
+              responsive and user-friendly applications. Also <b>SQL</b> for
+              database design and data management. I am also exploring the
+              <b>MERN stack</b> to expand my full-stack development
+              capabilities. <br /><br />
+              I enjoy problem-solving, structured thinking, and continuously
+              improving my skills to grow as a professional software engineer.
             </p>
 
             <!-- Skills Filter -->
@@ -321,6 +328,20 @@
                   <div
                     class="skills__percentage-bar skills__c"
                     data-percentage="90"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skills__data" data-category="programming">
+                <div class="skills__names">
+                  <i class="bx bxl-java skills__icon"></i>
+                  <span class="skills__name">Java (OOP)</span>
+                </div>
+                <span class="skills__percentage">65%</span>
+                <div class="skills__bar">
+                  <div
+                    class="skills__percentage-bar skills__java"
+                    data-percentage="65"
                   ></div>
                 </div>
               </div>
@@ -366,16 +387,30 @@
                   ></div>
                 </div>
               </div>
-
+              <!-- Tools -->
               <div class="skills__data" data-category="tools">
                 <div class="skills__names">
                   <i class="bx bx-data skills__icon"></i>
-                  <span class="skills__name">SQL</span>
+                  <span class="skills__name">MySQL</span>
                 </div>
                 <span class="skills__percentage">70%</span>
                 <div class="skills__bar">
                   <div
                     class="skills__percentage-bar skills__sql"
+                    data-percentage="70"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skills__data" data-category="tools">
+                <div class="skills__names">
+                  <i class="bx bxl-github skills__icon"></i>
+                  <span class="skills__name">Git & GitHub</span>
+                </div>
+                <span class="skills__percentage">70%</span>
+                <div class="skills__bar">
+                  <div
+                    class="skills__percentage-bar skills__git"
                     data-percentage="70"
                   ></div>
                 </div>
@@ -398,11 +433,24 @@
           </div>
 
           <div data-aos="fade-left">
-            <img
-              src="work3.jpg"
-              alt="Skills illustration"
-              class="skills__img"
-            />
+<!-- Developer Snapshot Card -->
+<div class="developer-snapshot" data-aos="fade-left">
+  <div class="snapshot-card">
+    <h3 class="snapshot-title">Quick Snapshot</h3>
+
+    <ul class="snapshot-stats">
+      <li><b>Semester:</b> 5th</li>
+      <li><b>Projects:</b> 10+</li>
+      <li><b>Primary Focus:</b> Frontend Development</li>
+      <li><b>Currently Learning:</b> MERN Stack</li>
+      <li><b>Career Goal:</b> Professional Software Engineer</li>
+    </ul>
+
+    <a href="#projects" class="snapshot-btn">View Projects</a>
+  </div>
+</div>
+
+
           </div>
         </div>
       </section>
@@ -436,7 +484,7 @@
               <div class="project__overlay">
                 <div class="project__links">
                   <a
-                    href="https://nifadhasanh21.github.io/Portfolio-nifadh21/"
+                    href="https://www.nifadhasan.com/"
                     class="project__link"
                     target="_blank"
                     ><i class="bx bx-link-external"></i
@@ -563,99 +611,121 @@
           </div>
 
           <!-- NEW: MERN Project -->
-        <div
-          class="project__card"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-category="web javascript mern"
-        >
-          <div class="project__img">
-            <!-- Add your image later: tynecxio.jpg (same folder) -->
-            <img src="tynecxio.jpg" alt="TynecXio MERN Website" />
-            <div class="project__overlay">
-              <div class="project__links">
-                <a
-                  href="#"
-                  class="project__link"
-                  target="_blank"
-                  aria-label="Live demo"
-                  ><i class="bx bx-link-external"></i
-                ></a>
-                <a
-                  href="#"
-                  class="project__link"
-                  target="_blank"
-                  aria-label="GitHub"
-                  ><i class="bx bxl-github"></i
-                ></a>
-                <button
-                  class="project__link project__info-btn"
-                  data-project="4"
-                  aria-label="Project details"
-                >
-                  <i class="bx bx-info-circle"></i>
-                </button>
+          <div
+            class="project__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-category="web javascript mern"
+          >
+            <div class="project__img">
+              <!-- Add your image later: tynecxio.jpg (same folder) -->
+              <img src="tynecxio.jpg" alt="TynecXio MERN Website" />
+              <div class="project__overlay">
+                <div class="project__links">
+                  <a
+                    href="https://www.tynecxio.com/"
+                    class="project__link"
+                    target="_blank"
+                    aria-label="Live demo"
+                    ><i class="bx bx-link-external"></i
+                  ></a>
+                  <a
+                    href="https://github.com/nifadhasanh21/tynecxio"
+                    class="project__link"
+                    target="_blank"
+                    aria-label="GitHub"
+                    ><i class="bx bxl-github"></i
+                  ></a>
+                  <button
+                    class="project__link project__info-btn"
+                    data-project="4"
+                    aria-label="Project details"
+                  >
+                    <i class="bx bx-info-circle"></i>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="project__info">
-            <h3 class="project__title">TynecXio (MERN)</h3>
-            <p class="project__description">
-              A full-stack MERN website with authentication, dashboard, and
-              modern UI — built with MongoDB, Express, React, and Node.
-            </p>
-            <div class="project__tags">
-              <span class="project__tag">MERN</span>
-              <span class="project__tag">React</span>
-              <span class="project__tag">Node.js</span>
-              <span class="project__tag">MongoDB</span>
-            </div>
-          </div>
-        </div>
-        </div>
-        
-      </section>
-
-      <!--===== EDUCATION =====-->
-      <section class="education section" id="education">
-        <h2 class="section-title">Education</h2>
-
-        <div class="education__container bd-grid">
-          <div class="education__item" data-aos="fade-right">
-            <div class="education__header">
-              <i class="bx bxs-graduation education__icon"></i>
-              <div>
-                <h3 class="education__title">B.Sc. in Software Engineering</h3>
-                <span class="education__subtitle"
-                  >Daffodil International University</span
-                >
+            <div class="project__info">
+              <h3 class="project__title">TynecXio (MERN)</h3>
+              <p class="project__description">
+                A full-stack MERN website with authentication, dashboard, and
+                modern UI — built with MongoDB, Express, React, and Node.
+              </p>
+              <div class="project__tags">
+                <span class="project__tag">MERN</span>
+                <span class="project__tag">React</span>
+                <span class="project__tag">Node.js</span>
+                <span class="project__tag">MongoDB</span>
               </div>
-              <span class="education__year">2024 - Present</span>
             </div>
-            <p class="education__description">
-              Currently in my 4th semester, focusing on programming
-              fundamentals, data structures, algorithms, and web development
-              technologies.
-            </p>
-          </div>
-
-          <div class="education__item" data-aos="fade-left">
-            <div class="education__header">
-              <i class="bx bxs-certification education__icon"></i>
-              <div>
-                <h3 class="education__title">Web Development Certification</h3>
-                <span class="education__subtitle">Online Course</span>
-              </div>
-              <span class="education__year">2025</span>
-            </div>
-            <p class="education__description">
-              Completed a comprehensive web development course covering HTML,
-              CSS, JavaScript, and responsive design principles.
-            </p>
           </div>
         </div>
       </section>
+
+<!--===== EDUCATION =====-->
+<section class="education section" id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="education__container bd-grid">
+
+    <!-- University -->
+    <div class="education__item premium-card" data-aos="fade-up">
+      <div class="education__header">
+        <div class="education__left">
+          <i class="bx bxs-graduation education__icon"></i>
+          <div>
+            <h3 class="education__title">B.Sc. in Software Engineering</h3>
+            <span class="education__subtitle">
+              Daffodil International University
+            </span>
+          </div>
+        </div>
+
+        <div class="education__right">
+          <span class="education__year">2024 – Present</span>
+          <span class="education__cgpa">CGPA: <b>3.76 / 4.00</b></span>
+        </div>
+      </div>
+
+      <p class="education__description">
+        Currently in my <strong>5th semester</strong>, developing a strong
+        academic and practical foundation in software engineering.
+        Focused on applying theoretical knowledge to real-world problems
+        through academic projects, self-driven development, and
+        continuous learning. Strong emphasis on <strong>clean code,
+        scalability, and modern development practices</strong>.
+      </p>
+    </div>
+
+    <!-- Certification -->
+    <div class="education__item premium-card" data-aos="fade-up" data-aos-delay="150">
+      <div class="education__header">
+        <div class="education__left">
+          <i class="bx bxs-certification education__icon"></i>
+          <div>
+            <h3 class="education__title">Web Development Certification</h3>
+            <span class="education__subtitle">
+              Professional Online Program
+            </span>
+          </div>
+        </div>
+
+        <span class="education__year">2025</span>
+      </div>
+
+      <p class="education__description">
+        Completed a structured professional program focused on building
+        modern, responsive, and user-centric web applications. Gained
+        hands-on experience through practical projects, real-world UI
+        implementation, and industry-aligned development workflows.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
@@ -785,7 +855,7 @@
         </a>
       </div>
       <p class="footer__copy">
-        &#169; 2025 Nifad Hasan Eimu. All rights reserved
+        &#169; 2025-2026 Nifad Hasan Eimu. All rights reserved
       </p>
     </footer>
 
