@@ -1788,3 +1788,27 @@ body.dark-theme .premium-card {
 /* Development Snapshot card night mode */
 
 
+/* For Java theme */
+.skills__icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* For the footer Nifad's second section */
+.footer__role {
+  margin-top: -30px;   /* move it up slightly */
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* Image hide */
+.seo-images {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+
+
