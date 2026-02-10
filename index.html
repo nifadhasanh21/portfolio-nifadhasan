@@ -46,40 +46,57 @@
 
     <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Nifad Hasan Eimu",
-        "alternateName": "Nifad Hasan",
-        "jobTitle": "Software Engineering Student & Web Developer",
-        "url": "https://www.nifadhasan.com/",
-        "image": [
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.nifadhasan.com/#person",
+  "name": "Nifad Hasan Eimu",
+  "alternateName": "Nifad Hasan",
+  "jobTitle": "Software Engineering Student & Web Developer",
+  "url": "https://www.nifadhasan.com/",
+  "image": [
           "https://www.nifadhasan.com/about.jpg",
-          "https://www.nifadhasan.com/images/nifad1.jpg",
-          "https://www.nifadhasan.com/images/nifad2.jpg",
-          "https://www.nifadhasan.com/images/nifad3.jpg"
+          "https://www.nifadhasan.com/nifad1.jpg",
+          "https://www.nifadhasan.com/nifad2.jpg",
+          "https://www.nifadhasan.com/nifad3.jpg"
         ],
-        "description": "Passionate Software Engineering student at Daffodil International University specializing in web development, data structures, and software design.",
-        "sameAs": [
-          "https://www.linkedin.com/in/nifadhasanh21/",
-          "https://github.com/nifadhasanh21",
-          "https://www.instagram.com/nifad_hasan_h21/",
-          "https://www.nifadhasan.com/"
-        ],
-        "affiliation": {
-          "@type": "CollegeOrUniversity",
-          "name": "Daffodil International University"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Dhaka",
-          "addressCountry": "Bangladesh"
-        },
-        "email": "mailto:nifadhasanh21@gmail.com"
-      }
-    </script>
+  "description": "Software Engineering student at Daffodil International University with strong skills in C programming, Java (OOP), and modern web development. Passionate about building scalable, user-focused applications.",
+  "knowsAbout": [
+    "C Programming",
+    "Java",
+    "Object-Oriented Programming",
+    "Data Structures",
+    "Algorithms",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SQL",
+    "MERN Stack",
+    "Web Development",
+    "Software Engineering"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/nifadhasanh21/",
+    "https://github.com/nifadhasanh21",
+    "https://www.instagram.com/nifad_hasan_h21/",
+    "https://blog.nifadhasan.com/"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Daffodil International University",
+    "url": "https://daffodilvarsity.edu.bd/"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressCountry": "Bangladesh"
+  },
+  "email": "mailto:nifadhasanh21@gmail.com"
+}
+</script>
 
-    <title>Nifad Hasan Eimu | Web Developer</title>
+
+    <title>Nifad Hasan Eimu | Software Engineer | Web Developer | NIFAD</title>
   </head>
   <body>
     <!-- ===== HEADER ===== -->
@@ -163,7 +180,7 @@
 
         <div class="home__social">
           <a
-            href="https://www.linkedin.com/in/nifad-hasan-h21/"
+            href="https://www.linkedin.com/in/nifadhasanh21/"
             class="home__social-icon"
             target="_blank"
             aria-label="LinkedIn"
@@ -171,13 +188,13 @@
             <i class="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://www.instagram.com/nifad_hasan_h21/"
+            href="mailto:nifadhasanh21@gmail.com"
             class="home__social-icon"
-            target="_blank"
-            aria-label="Instagram"
+            aria-label="Email"
           >
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bx-envelope"></i>
           </a>
+
           <a
             href="https://github.com/nifadhasanh21"
             class="home__social-icon"
@@ -222,11 +239,12 @@
         </div>
       </section>
 
-      <div style="display: none">
-        <img src="nifad1.jpg" alt="Nifad Hasan portrait" />
-        <img src="nifad2.jpg" alt="Nifad Hasan studio photo" />
-        <img src="nifad3.jpg" alt="Nifad Hasan profile image" />
-      </div>
+      <div class="seo-images">
+  <img src="nifad1.jpg" alt="Nifad Hasan portrait" loading="lazy" />
+  <img src="nifad2.jpg" alt="Nifad Hasan studio photo" loading="lazy" />
+  <img src="nifad3.jpg" alt="Nifad Hasan profile image" loading="lazy" />
+</div>
+
 
       <!--===== ABOUT =====-->
       <section class="about section" id="about">
@@ -334,7 +352,12 @@
 
               <div class="skills__data" data-category="programming">
                 <div class="skills__names">
-                  <i class="bx bxl-java skills__icon"></i>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Java Logo"
+                    class="skills__icon icon--mono"
+                  />
+
                   <span class="skills__name">Java (OOP)</span>
                 </div>
                 <span class="skills__percentage">65%</span>
@@ -379,11 +402,11 @@
                   <i class="bx bxl-javascript skills__icon"></i>
                   <span class="skills__name">JavaScript</span>
                 </div>
-                <span class="skills__percentage">35%</span>
+                <span class="skills__percentage">60%</span>
                 <div class="skills__bar">
                   <div
                     class="skills__percentage-bar skills__js"
-                    data-percentage="35"
+                    data-percentage="60"
                   ></div>
                 </div>
               </div>
@@ -433,24 +456,22 @@
           </div>
 
           <div data-aos="fade-left">
-<!-- Developer Snapshot Card -->
-<div class="developer-snapshot" data-aos="fade-left">
-  <div class="snapshot-card">
-    <h3 class="snapshot-title">Quick Snapshot</h3>
+            <!-- Developer Snapshot Card -->
+            <div class="developer-snapshot" data-aos="fade-left">
+              <div class="snapshot-card">
+                <h3 class="snapshot-title">Quick Snapshot</h3>
 
-    <ul class="snapshot-stats">
-      <li><b>Semester:</b> 5th</li>
-      <li><b>Projects:</b> 10+</li>
-      <li><b>Primary Focus:</b> Frontend Development</li>
-      <li><b>Currently Learning:</b> MERN Stack</li>
-      <li><b>Career Goal:</b> Professional Software Engineer</li>
-    </ul>
+                <ul class="snapshot-stats">
+                  <li><b>Semester:</b> 5th</li>
+                  <li><b>Projects:</b> 10+</li>
+                  <li><b>Primary Focus:</b> Frontend Development</li>
+                  <li><b>Currently Learning:</b> MERN Stack</li>
+                  <li><b>Career Goal:</b> Professional Software Engineer</li>
+                </ul>
 
-    <a href="#projects" class="snapshot-btn">View Projects</a>
-  </div>
-</div>
-
-
+                <a href="#projects" class="snapshot-btn">View Projects</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -664,68 +685,126 @@
         </div>
       </section>
 
-<!--===== EDUCATION =====-->
-<section class="education section" id="education">
-  <h2 class="section-title">Education</h2>
+      <!--===== EDUCATION =====-->
+      <section class="education section" id="education">
+        <h2 class="section-title">Education</h2>
 
-  <div class="education__container bd-grid">
+        <div class="education__container bd-grid">
+          <!-- University -->
+          <div class="education__item premium-card" data-aos="fade-up">
+            <div class="education__header">
+              <div class="education__left">
+                <i class="bx bxs-graduation education__icon"></i>
+                <div>
+                  <h3 class="education__title">
+                    B.Sc. in Software Engineering
+                  </h3>
+                  <span class="education__subtitle">
+                    Daffodil International University
+                  </span>
+                </div>
+              </div>
 
-    <!-- University -->
-    <div class="education__item premium-card" data-aos="fade-up">
-      <div class="education__header">
-        <div class="education__left">
-          <i class="bx bxs-graduation education__icon"></i>
-          <div>
-            <h3 class="education__title">B.Sc. in Software Engineering</h3>
-            <span class="education__subtitle">
-              Daffodil International University
-            </span>
+              <div class="education__right">
+                <span class="education__year">2024 – Present</span>
+                <span class="education__cgpa">CGPA: <b>3.76 / 4.00</b></span>
+              </div>
+            </div>
+
+            <p class="education__description">
+              Currently in my <strong>5th semester</strong>, developing a strong
+              academic and practical foundation in software engineering. Focused
+              on applying theoretical knowledge to real-world problems through
+              academic projects, self-driven development, and continuous
+              learning. Strong emphasis on
+              <strong
+                >clean code, scalability, and modern development
+                practices</strong
+              >.
+            </p>
+          </div>
+
+          <!-- Certification -->
+          <div
+            class="education__item premium-card"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div class="education__header">
+              <div class="education__left">
+                <i class="bx bxs-certification education__icon"></i>
+                <div>
+                  <h3 class="education__title">
+                    Web Development Certification
+                  </h3>
+                  <span class="education__subtitle">
+                    Professional Online Program
+                  </span>
+                </div>
+              </div>
+
+              <span class="education__year">2025</span>
+            </div>
+
+            <p class="education__description">
+              Completed a structured professional program focused on building
+              modern, responsive, and user-centric web applications. Gained
+              hands-on experience through practical projects, real-world UI
+              implementation, and industry-aligned development workflows.
+            </p>
+          </div>
+          <!-- Relevant Coursework -->
+          <div
+            class="education__item premium-card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="education__header">
+              <div class="education__left">
+                <i class="bx bx-book education__icon"></i>
+                <div>
+                  <h3 class="education__title">Relevant Coursework</h3>
+                  <span class="education__subtitle">
+                    Core Software Engineering Subjects
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="education__description">
+              Data Structures & Algorithms, Object-Oriented Programming,
+              Database Management Systems, Software Engineering Principles, Web
+              Development, Discrete Mathematics, Digital Logic Design.
+            </p>
+          </div>
+
+          <!-- Academic Highlights -->
+          <div
+            class="education__item premium-card"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            <div class="education__header">
+              <div class="education__left">
+                <i class="bx bx-award education__icon"></i>
+                <div>
+                  <h3 class="education__title">Academic Highlights</h3>
+                  <span class="education__subtitle">
+                    Performance & Learning Focus
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <p class="education__description">
+              Consistently maintaining a high CGPA through disciplined study,
+              practical project work, and continuous self-improvement. Actively
+              engaged in real-world problem solving, coding practice, and modern
+              development tools.
+            </p>
           </div>
         </div>
-
-        <div class="education__right">
-          <span class="education__year">2024 – Present</span>
-          <span class="education__cgpa">CGPA: <b>3.76 / 4.00</b></span>
-        </div>
-      </div>
-
-      <p class="education__description">
-        Currently in my <strong>5th semester</strong>, developing a strong
-        academic and practical foundation in software engineering.
-        Focused on applying theoretical knowledge to real-world problems
-        through academic projects, self-driven development, and
-        continuous learning. Strong emphasis on <strong>clean code,
-        scalability, and modern development practices</strong>.
-      </p>
-    </div>
-
-    <!-- Certification -->
-    <div class="education__item premium-card" data-aos="fade-up" data-aos-delay="150">
-      <div class="education__header">
-        <div class="education__left">
-          <i class="bx bxs-certification education__icon"></i>
-          <div>
-            <h3 class="education__title">Web Development Certification</h3>
-            <span class="education__subtitle">
-              Professional Online Program
-            </span>
-          </div>
-        </div>
-
-        <span class="education__year">2025</span>
-      </div>
-
-      <p class="education__description">
-        Completed a structured professional program focused on building
-        modern, responsive, and user-centric web applications. Gained
-        hands-on experience through practical projects, real-world UI
-        implementation, and industry-aligned development workflows.
-      </p>
-    </div>
-
-  </div>
-</section>
-
+      </section>
 
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
@@ -733,9 +812,12 @@
 
         <div class="contact__container bd-grid">
           <div class="contact__info" data-aos="fade-right">
-            <h3 class="contact__subtitle">Let's talk about everything!</h3>
+            <h3 class="contact__subtitle">
+              Let’s build something impactful together!
+            </h3>
             <p class="contact__text">
-              Feel free to reach out for collaborations or just a friendly hello
+              Open to internships, freelance work, collaborations, and project
+              discussions.
             </p>
 
             <div class="contact__details">
@@ -831,31 +913,50 @@
     <!--===== FOOTER =====-->
     <footer class="footer">
       <p class="footer__title">Nifad Hasan Eimu</p>
+      <p class="footer__role">
+  Software Engineering Student | Web Developer
+</p>
+
+
       <div class="footer__social">
         <a
           href="https://www.linkedin.com/in/nifadhasanh21/"
           class="footer__icon"
           target="_blank"
+          aria-label="LinkedIn"
         >
           <i class="bx bxl-linkedin"></i>
         </a>
-        <a
-          href="https://www.instagram.com/nifad_hasan_h21/"
-          class="footer__icon"
-          target="_blank"
-        >
-          <i class="bx bxl-instagram"></i>
-        </a>
+
         <a
           href="https://github.com/nifadhasanh21"
           class="footer__icon"
           target="_blank"
+          aria-label="GitHub"
         >
           <i class="bx bxl-github"></i>
         </a>
+
+        <a
+          href="mailto:nifadhasanh21@gmail.com"
+          class="footer__icon"
+          aria-label="Email"
+        >
+          <i class="bx bx-envelope"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/nifad_hasan_h21/"
+          class="footer__icon"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="bx bxl-instagram"></i>
+        </a>
       </div>
+
       <p class="footer__copy">
-        &#169; 2025-2026 Nifad Hasan Eimu. All rights reserved
+        &#169; 2025–2026 Nifad Hasan Eimu. All rights reserved.
       </p>
     </footer>
 
