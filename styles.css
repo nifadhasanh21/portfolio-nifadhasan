@@ -1810,5 +1810,40 @@ body.dark-theme .premium-card {
   clip: rect(0, 0, 0, 0);
 }
 
+/* For footer social */
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  margin-bottom: var(--mb-4);
+}
 
+.footer__icon {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.35rem;
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.footer__icon:hover {
+  color: var(--first-color);
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.footer__icon--text {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
 
