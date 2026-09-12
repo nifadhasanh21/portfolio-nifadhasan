@@ -1810,6 +1810,8 @@ body.dark-theme .premium-card {
   clip: rect(0, 0, 0, 0);
 }
 
+
+
 /* For footer social */
 .footer__social {
   display: flex;
@@ -1845,5 +1847,37 @@ body.dark-theme .premium-card {
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.4px;
+}
+
+/* Developer snapshot fix */  
+.developer-snapshot-wrapper {
+  align-self: start;
+  width: 100%;
+}
+/* Fixing the skill section */
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.skills__container {
+  align-items: start;
+}
+
+.developer-snapshot-wrapper {
+  align-self: start;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .developer-snapshot-wrapper {
+    position: sticky;
+    top: 100px;
+  }
 }
 
