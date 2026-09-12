@@ -295,81 +295,232 @@ const projectModal = document.getElementById("project-modal");
 const modalClose = document.getElementById("modal-close");
 const modalBody = document.querySelector(".project-modal__body");
 
+
 // Project data for modal
 const projectData = {
   1: {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     description:
-      "A responsive portfolio website built with HTML, CSS, and JavaScript to showcase my work and skills. This project demonstrates modern web development practices including responsive design, smooth animations, and clean code structure.",
+      "A responsive personal portfolio website designed to showcase my projects, technical skills, experience, and professional profile. The website focuses on clean UI, responsive layouts, smooth interactions, and a professional user experience.",
     technologies: [
-      "HTML5,  ",
-      "CSS3,  ",
-      "JavaScript,  ",
-      "Responsive Design  ",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
     ],
     features: [
       "Responsive layout",
       "Smooth scrolling",
-      "Interactive elements",
-      "Contact form",
+      "Interactive sections",
+      "Project showcase",
+      "Contact section",
+      "<br />",
     ],
     liveLink: "https://www.nifadhasan.com/",
-    githubLink: "https://github.com/nifad-hasan-h21/Portfolio-nifadh21",
+    githubLink: "https://github.com/nifadhasanh21/Portfolio-nifadh21",
     images: ["work1.jpg"],
   },
+
   2: {
     title: "Healthcare Management System",
     description:
-      "A comprehensive C-based application for managing patient records, appointments, and medical staff. The system includes features for adding, deleting, searching, and updating records with efficient data management.",
-    technologies: ["C Programming,  ", "Data Structures,  ", "File Handling"],
+      "A C-based healthcare management application designed to manage patient records, appointments, and medical staff. The project demonstrates structured programming, data management, searching, updating, and file handling.",
+    technologies: [
+      "C Programming",
+      "Data Structures",
+      "File Handling",
+    ],
     features: [
       "Patient record management",
-      "Appointment scheduling",
+      "Appointment management",
       "Staff management",
+      "Add and update records",
       "Search functionality",
+      "File-based data storage",
+      "<br />",
     ],
     liveLink: "#",
-    githubLink: "https://github.com/nifad-hasan-h21/Library-Management-System.",
+    githubLink:
+      "https://github.com/nifadhasanh21/Health-Care-Management-System",
     images: ["work2.jpg"],
   },
+
   3: {
     title: "Library Management System",
     description:
-      "A complete library management system built with C programming to handle books, members, and transactions efficiently. The system provides a user-friendly interface for library operations with robust data management capabilities.",
-    technologies: ["C Programming,  ", "Data Structures,  ", "File Management"],
+      "A C-based library management system developed to organize books, members, and borrowing transactions. The application demonstrates practical use of data structures, file handling, and structured programming concepts.",
+    technologies: [
+      "C Programming",
+      "Data Structures",
+      "File Handling",
+    ],
     features: [
       "Book management",
       "Member management",
+      "Book issue and return",
       "Transaction tracking",
-      "Report generation",
+      "Search functionality",
+      "File-based data management",
+      "<br />",
     ],
     liveLink: "#",
-    githubLink: "https://github.com/nifad-hasan-h21/Library-Management-System",
-    images: ["work4.jpg"],
+    githubLink:
+      "https://github.com/nifadhasanh21/Library-Management-System-C",
+    images: ["work3.jpg"],
   },
 
   4: {
-    title: "TynecXio (MERN)",
+    title: "TynecXio",
     description:
-      "A full-stack MERN website built with MongoDB, Express, React, and Node. Includes authentication, dashboard UI, and scalable API structure.",
+      "A modern business website built with React to present services, company information, and digital solutions through a responsive and professional interface. The project focuses on modern UI design, reusable components, and a smooth user experience.",
     technologies: [
-      "MongoDB,  ",
-      "Express.js,  ",
-      "React,  ",
-      "Node.js,  ",
-      "JWT/Auth  ",
+      "React",
+      "JavaScript",
+      "Responsive UI",
+      "Component-Based Development",
+      "Vercel",
     ],
     features: [
-      "Auth + protected routes",
-      "Dashboard & admin UI",
-      "REST API",
-      "Responsive UI",
+      "Modern responsive interface",
+      "Reusable React components",
+      "Service presentation",
+      "Interactive sections",
+      "Mobile-friendly design",
+      "Professional business UI",
+      "<br />",
     ],
     liveLink: "https://www.tynecxio.com/",
     githubLink: "https://github.com/nifadhasanh21/tynecxio",
-    images: ["tynecxio.jpg"],
+    images: ["work4.jpg"],
+  },
+
+  5: {
+    title: "BloodBridge DIU",
+    description:
+      "A web-based blood donation platform designed to connect blood donors with people in need. The application provides donor registration, blood search, emergency requests, authentication, notifications, and administrative functionality.",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Supabase",
+      "Responsive Design",
+    ],
+    features: [
+      "Donor registration",
+      "Blood donor search",
+      "Emergency blood requests",
+      "User authentication",
+      "Notifications",
+      "Admin dashboard",
+      "Supabase database integration",
+      "<br />",
+    ],
+    liveLink: "https://bloodwebapp.netlify.app/",
+    githubLink: "https://github.com/nifadhasanh21/Blood-Doner-Web",
+    images: ["work5.jpg"],
+  },
+
+  6: {
+    title: "N.I.F.A.D AI Chatbot",
+    description:
+      "A JavaScript-based AI chatbot created to provide an interactive conversational experience through a simple and responsive web interface. The project demonstrates JavaScript-based interaction, dynamic UI updates, and chatbot functionality.",
+    technologies: [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "AI Chatbot",
+      "Responsive UI",
+    ],
+    features: [
+      "Interactive chat interface",
+      "Dynamic message handling",
+      "Responsive design",
+      "User-friendly interface",
+      "Real-time conversation experience",
+      "<br />"
+    ],
+    liveLink: "https://ai.nifadhasan.com/",
+    githubLink: "https://github.com/nifadhasanh21/chatbot-nifad",
+    images: ["work6.jpg"],
+  },
+
+  7: {
+    title: "Money Manager",
+    description:
+      "A responsive personal finance management application designed to help users track income, expenses, and transactions through an interactive dashboard. The application combines React with Supabase for a modern and practical financial management experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Supabase",
+      "Recharts",
+      "Responsive UI",
+    ],
+    features: [
+      "Income tracking",
+      "Expense tracking",
+      "Transaction management",
+      "Financial dashboard",
+      "Interactive charts",
+      "Supabase integration",
+      "Responsive interface",
+      "<br />",
+    ],
+    liveLink: "https://management.nifadhasan.com/",
+    githubLink:
+      "https://github.com/nifadhasanh21/money-management-app",
+    images: ["work7.jpg"],
+  },
+
+  8: {
+    title: "DIU SWE Routine",
+    description:
+      "A student-focused academic routine management application built with React and Supabase. The application helps students organize class schedules, course information, and daily academic routines through a clean and responsive interface.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Supabase",
+      "Responsive UI",
+    ],
+    features: [
+      "Class routine management",
+      "Course information",
+      "Daily schedule view",
+      "Supabase database integration",
+      "Responsive student interface",
+      "Interactive routine experience",
+      "<br />",
+    ],
+    liveLink: "https://swe-routine.vercel.app/",
+    githubLink: "https://github.com/nifadhasanh21/diu-swe-routine",
+    images: ["work8.jpg"],
+  },
+
+  9: {
+    title: "GasTracker",
+    description:
+      "A JavaScript-based web application powered by Supabase for managing and tracking gas-related information. The project focuses on practical data management, interactive functionality, and a simple responsive user experience.",
+    technologies: [
+      "JavaScript",
+      "Supabase",
+      "HTML5",
+      "CSS3",
+      "Responsive UI",
+    ],
+    features: [
+      "Gas information tracking",
+      "Data management",
+      "Supabase database integration",
+      "Interactive interface",
+      "Responsive design",
+      "<br />",
+    ],
+    liveLink: "https://github.com/nifadhasanh21/Gas-Usage-Tracking",
+    githubLink: "https://gasusage.netlify.app/",
+    images: ["work9.jpg"],
   },
 };
+
+
 
 projectInfoBtns.forEach((btn) => {
   btn.addEventListener("click", function () {
