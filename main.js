@@ -378,7 +378,6 @@ const projectData = {
       "JavaScript",
       "Responsive UI",
       "Component-Based Development",
-      "Vercel",
     ],
     features: [
       "Modern responsive interface",
