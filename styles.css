@@ -1848,36 +1848,65 @@ body.dark-theme .premium-card {
   font-weight: 700;
   letter-spacing: 0.4px;
 }
+/* ================================
+   Skills Section
+================================ */
 
-/* Developer snapshot fix */  
-.developer-snapshot-wrapper {
-  align-self: start;
-  width: 100%;
+.skills__container {
+  align-items: flex-start !important;
 }
-/* Fixing the skill section */
+
 .skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
-}
-
-.skills__container {
   align-items: start;
 }
 
+
+/* ================================
+   Developer Snapshot
+================================ */
+
 .developer-snapshot-wrapper {
-  align-self: start;
-  margin-top: 0;
+  width: 100%;
+  align-self: flex-start !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: static !important;
+  top: auto !important;
+  transform: none !important;
 }
+
+
+/* ================================
+   Desktop
+================================ */
 
 @media screen and (min-width: 768px) {
   .skills-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .developer-snapshot-wrapper {
-    position: sticky;
-    top: 100px;
+    align-self: flex-start !important;
+    margin-top: 0 !important;
+    position: static !important;
   }
 }
 
+
+/* ================================
+   Mobile
+================================ */
+
+@media screen and (max-width: 767px) {
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+
+  .developer-snapshot-wrapper {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+}
