@@ -316,7 +316,7 @@ const projectData = {
       "Contact section",
       "<br />",
     ],
-    liveLink: "https://www.nifadhasan.com/",
+    liveLink: "https://www.nifadhasan.dev/",
     githubLink: "https://github.com/nifadhasanh21/Portfolio-nifadh21",
     images: ["work1.jpg"],
   },
@@ -438,7 +438,7 @@ const projectData = {
       "Real-time conversation experience",
       "<br />"
     ],
-    liveLink: "https://ai.nifadhasan.com/",
+    liveLink: "https://ai.nifadhasan.dev/",
     githubLink: "https://github.com/nifadhasanh21/chatbot-nifad",
     images: ["work6.jpg"],
   },
@@ -464,7 +464,7 @@ const projectData = {
       "Responsive interface",
       "<br />",
     ],
-    liveLink: "https://management.nifadhasan.com/",
+    liveLink: "https://management.nifadhasan.dev/",
     githubLink:
       "https://github.com/nifadhasanh21/money-management-app",
     images: ["work7.jpg"],

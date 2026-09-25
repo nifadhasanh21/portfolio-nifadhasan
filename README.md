@@ -2,8 +2,8 @@
 
 Personal portfolio website showcasing my projects, skills, and experience as a **Frontend / MERN Stack Developer**.
 
-🔗 **Live Site:** https://nifadhasan.com  
-📝 **Blog:** https://blog.nifadhasan.com
+🔗 **Live Site:** https://nifadhasan.dev  
+📝 **Blog:** https://blog.nifadhasan.dev
 
 ---
 
