@@ -166,8 +166,8 @@ document.getElementById("download-cv").addEventListener("click", function (e) {
 
   // Create a temporary link element
   const link = document.createElement("a");
-  link.href = "/CV..pdf"; // Replace with actual CV file path
-  link.download = "CV-Nifad Hasan Eimu.pdf";
+  link.href = "/Nifad_Hasan_Eimu_CV.pdf"; 
+  link.download = "Nifad_Hasan_Eimu_CV.pdf";
   link.target = "_blank";
 
   // Trigger download
